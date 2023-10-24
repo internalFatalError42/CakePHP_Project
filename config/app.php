@@ -282,6 +282,11 @@ return [
             'className' => Connection::class,
             'driver' => Mysql::class,
             'persistent' => false,
+            'host' => 'localhost',
+            'username' => 'root',
+            'password' => '',
+            'database' => 'my_app',
+            'encoding' => 'utf8',
             'timezone' => 'UTC',
 
             /*

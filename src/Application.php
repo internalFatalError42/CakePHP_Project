@@ -54,6 +54,9 @@ class Application extends BaseApplication
                 (new TableLocator())->allowFallbackClass(false)
             );
         }
+        if (Configure::read('debug')) {
+            $this->addPlugin('DebugKit');
+        }
     }
 
     /**
