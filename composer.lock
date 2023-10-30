@@ -599,16 +599,16 @@
         },
         {
             "name": "mobiledetect/mobiledetectlib",
-            "version": "4.8.03",
+            "version": "4.8.04",
             "source": {
                 "type": "git",
                 "url": "https://github.com/serbanghita/Mobile-Detect.git",
-                "reference": "253bedd7db166ec248f157aced344d3584fcb0d9"
+                "reference": "b73a5bdbcec74a6d33389cc8fe3a5af5d0965d01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/253bedd7db166ec248f157aced344d3584fcb0d9",
-                "reference": "253bedd7db166ec248f157aced344d3584fcb0d9",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/b73a5bdbcec74a6d33389cc8fe3a5af5d0965d01",
+                "reference": "b73a5bdbcec74a6d33389cc8fe3a5af5d0965d01",
                 "shasum": ""
             },
             "require": {
@@ -616,7 +616,7 @@
                 "psr/simple-cache": "^3.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.14",
+                "friendsofphp/php-cs-fixer": "^v3.35.1",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/phpstan": "^1.10",
                 "phpunit/phpunit": "^9.6",
@@ -651,7 +651,7 @@
             ],
             "support": {
                 "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
-                "source": "https://github.com/serbanghita/Mobile-Detect/tree/4.8.03"
+                "source": "https://github.com/serbanghita/Mobile-Detect/tree/4.8.04"
             },
             "funding": [
                 {
@@ -659,7 +659,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-15T18:37:41+00:00"
+            "time": "2023-10-28T16:04:34+00:00"
         },
         {
             "name": "psr/container",
