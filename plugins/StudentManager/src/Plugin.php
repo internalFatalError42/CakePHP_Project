@@ -45,6 +45,10 @@ class StudentManagerPlugin extends BasePlugin
             function (RouteBuilder $builder) {
                 // Add custom routes here
 
+                $builder->connect("/student-first", [
+                    "controller" => "Student",
+                    "action" => "index"
+                ]);
                 $builder->fallbacks();
             }
         );
